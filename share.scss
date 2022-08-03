@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(2, 111, 212, 0.603);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    main {
+        font-size: 1.2rem;
+    
+        margin: auto;
+        padding: 2rem;
+    
+        display: flex;
+        flex-direction: column;
+        width: 15rem;
+        text-align: center;
+        
+        .form {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border-radius: 10px;
+        }
+    
+        .input {
+            background-color: white;
+        }    
+    
+        .cube {
+            background-color: rgb(104, 104, 104);
+            color: white;
+        }
+    
+        button {
+            transition: 0.5s;
+            font-size: 1.2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            &:hover {
+                background-color: rgb(46, 216, 238);
+               transition: 0.5s;
+            }
+        }
+    }
+    
+    
+}
+
