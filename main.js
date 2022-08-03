@@ -9,7 +9,9 @@ function whatName() {
         nameDefault == 'Thaise' ||
         nameDefault == 'thaíse' ||
         nameDefault == 'thaise' ||
-        nameDefault == 'taise'
+        nameDefault == 'taise' ||
+        nameDefault == 'Biu' ||
+        nameDefault == 'Bio'
     ) {
         textToUser.textContent = 'Minha namorada';
     } else if (
