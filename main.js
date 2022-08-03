@@ -19,7 +19,7 @@ function whatName() {
         nameDefault == 'Lucas Silva' ||
         nameDefault == 'lucas silva'
     ) {
-        textToUser.textContent = 'Minha namorada';
+        textToUser.textContent = 'Meu criador';
     } else if (
         nameDefault == 'Silas' ||
         nameDefault == 'silas' ||
