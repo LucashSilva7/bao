@@ -43,7 +43,11 @@ function whatName() {
         nameDefault == 'Vitória'
     ) {
         textToUser.textContent = 'Ela é minha amiga';
-    } else {
+    } else if (nameDefault == 0) {
+        textToUser.textContent = 'Digite um nome!';
+    }
+    
+    else {
         textToUser.textContent = 'Não sei quem é, Acho que não lembro :[';
     }
 }
